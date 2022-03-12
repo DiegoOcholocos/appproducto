@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Comprara Dogecoin</h1>
+    <form asp-controller="Home" asp-action="Consultar">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="https://forbes.es/wp-content/uploads/2021/10/dogecoin-og-logo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://www.finanzasnews.com/wp-content/uploads/Prediccion-del-precio-de-Dogecoin-%C2%BFCerca-de-1-para.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_1860/public/media/image/2021/02/precio-dogecoin-inflado-elon-musk-2225147.jpg?itok=uUD-u5Iu" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+            </div>
+            <div class="col-6">
+                <h1>DOGECOIN</h1>
+                <h4>
+                Dogecoin es una criptodivisa​ derivada de Bitcoin​ que usa como mascota un perro Shiba Inu del meme de Internet «Doge».​​​​ Es una criptomoneda inflacionaria porque no tiene límite de emisión. La segunda quincena de junio de 2014, se había minado más de 100 mil millones de Dogecoins.    
+                </h4>
+                <br>
+        <br>
+        <br>
+        <br>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Comprar</label>
+                    <input type="dni" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CANTIDAD">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Billetera</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Billetera">
+                    <small id="emailHelp" class="form-text text-muted">Billetera</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Contraseña</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contraseña">
+                    <small id="emailHelp" class="form-text text-muted">Contraseña</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <small id="emailHelp" class="form-text text-muted">Email</small>
+        </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+                 </div>
+                 <br>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </form>
+    <h1>@ViewData["Message"]</h1>a
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
